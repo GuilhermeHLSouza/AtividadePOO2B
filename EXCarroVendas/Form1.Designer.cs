@@ -151,11 +151,12 @@
             // 
             // btnSair
             // 
+            this.btnSair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnSair.Location = new System.Drawing.Point(369, 415);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(75, 23);
             this.btnSair.TabIndex = 12;
-            this.btnSair.Text = "Sair";
+            this.btnSair.Text = "voltar";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
