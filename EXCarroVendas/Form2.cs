@@ -45,5 +45,17 @@ namespace EXCarroVendas
             Form3 tela = new Form3();
             tela.Show();
         }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 tela = new Form4();
+            tela.Show();
+        }
     }
 }

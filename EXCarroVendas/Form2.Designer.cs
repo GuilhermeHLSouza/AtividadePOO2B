@@ -30,10 +30,12 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.OpenCarro = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpenCarro = new System.Windows.Forms.ToolStripMenuItem();
             this.competiçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.salarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,27 +52,16 @@
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salarioToolStripMenuItem,
             this.calculadoraToolStripMenuItem,
             this.OpenCarro,
             this.competiçãoToolStripMenuItem,
-            this.sairToolStripMenuItem});
+            this.sairToolStripMenuItem,
+            this.toolStripSeparator1});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem.Text = "Menu";
-            // 
-            // OpenCarro
-            // 
-            this.OpenCarro.Name = "OpenCarro";
-            this.OpenCarro.Size = new System.Drawing.Size(180, 22);
-            this.OpenCarro.Text = "Carro";
-            this.OpenCarro.Click += new System.EventHandler(this.OpenCarro_Click);
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
             // calculadoraToolStripMenuItem
             // 
@@ -79,12 +70,38 @@
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
             // 
+            // OpenCarro
+            // 
+            this.OpenCarro.Name = "OpenCarro";
+            this.OpenCarro.Size = new System.Drawing.Size(180, 22);
+            this.OpenCarro.Text = "Carro";
+            this.OpenCarro.Click += new System.EventHandler(this.OpenCarro_Click);
+            // 
             // competiçãoToolStripMenuItem
             // 
             this.competiçãoToolStripMenuItem.Name = "competiçãoToolStripMenuItem";
             this.competiçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.competiçãoToolStripMenuItem.Text = "Competição";
             this.competiçãoToolStripMenuItem.Click += new System.EventHandler(this.competiçãoToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            // 
+            // salarioToolStripMenuItem
+            // 
+            this.salarioToolStripMenuItem.Name = "salarioToolStripMenuItem";
+            this.salarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salarioToolStripMenuItem.Text = "Salario";
+            this.salarioToolStripMenuItem.Click += new System.EventHandler(this.salarioToolStripMenuItem_Click);
             // 
             // PgMenu
             // 
@@ -112,5 +129,7 @@
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem competiçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
