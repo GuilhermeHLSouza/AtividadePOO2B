@@ -57,5 +57,12 @@ namespace EXCarroVendas
             Form4 tela = new Form4();
             tela.Show();
         }
+
+        private void loopingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 tela = new Form5();
+            tela.Show();
+        }
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\bin\Debug\EXCarroVendas.exe.config
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\bin\Debug\EXCarroVendas.exe
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\bin\Debug\EXCarroVendas.pdb
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.csproj.AssemblyReference.cache
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.Form1.resources
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.PgMenu.resources
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.Form3.resources
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.Form4.resources
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.Form5.resources
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.Properties.Resources.resources
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.csproj.GenerateResource.cache
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.csproj.CoreCompileInputs.cache
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.exe
+C:\Users\2jd\Desktop\Poo\POOexCarro-main\EXCarroVendas\obj\Debug\EXCarroVendas.pdb

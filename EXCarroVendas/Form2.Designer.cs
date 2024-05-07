@@ -30,12 +30,13 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.OpenCarro = new System.Windows.Forms.ToolStripMenuItem();
             this.competiçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.salarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loopingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,12 +57,20 @@
             this.calculadoraToolStripMenuItem,
             this.OpenCarro,
             this.competiçãoToolStripMenuItem,
+            this.loopingToolStripMenuItem,
             this.sairToolStripMenuItem,
             this.toolStripSeparator1});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem.Text = "Menu";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
+            // 
+            // salarioToolStripMenuItem
+            // 
+            this.salarioToolStripMenuItem.Name = "salarioToolStripMenuItem";
+            this.salarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salarioToolStripMenuItem.Text = "Salario";
+            this.salarioToolStripMenuItem.Click += new System.EventHandler(this.salarioToolStripMenuItem_Click);
             // 
             // calculadoraToolStripMenuItem
             // 
@@ -96,12 +105,12 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
-            // salarioToolStripMenuItem
+            // loopingToolStripMenuItem
             // 
-            this.salarioToolStripMenuItem.Name = "salarioToolStripMenuItem";
-            this.salarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.salarioToolStripMenuItem.Text = "Salario";
-            this.salarioToolStripMenuItem.Click += new System.EventHandler(this.salarioToolStripMenuItem_Click);
+            this.loopingToolStripMenuItem.Name = "loopingToolStripMenuItem";
+            this.loopingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loopingToolStripMenuItem.Text = "Looping";
+            this.loopingToolStripMenuItem.Click += new System.EventHandler(this.loopingToolStripMenuItem_Click);
             // 
             // PgMenu
             // 
@@ -131,5 +140,6 @@
         private System.Windows.Forms.ToolStripMenuItem competiçãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem loopingToolStripMenuItem;
     }
 }
