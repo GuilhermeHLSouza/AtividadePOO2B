@@ -26,7 +26,15 @@ namespace EXCarroVendas
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            double i, x;
+            i = Convert.ToDouble(txtNum.Text);
+            x = 1;
+            do
+            {
+                x *= i;
+                i--;
+                txtResult.Text = String.Concat(txtResult.Text, "\r\n", x.ToString());
+            } while (i > 1);
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -36,14 +44,32 @@ namespace EXCarroVendas
 
         private void btnWhile_Click(object sender, EventArgs e)
         {
-            double num, i, x;
-            num = Convert.ToDouble(txtNum.Text);
-            i = 1;
-            while(i >= 10)
+            double i, x;
+            x = 1;
+            i = Convert.ToDouble(txtNum.Text);
+            while(i > 1)
             {
-                x = i * (i - 1) * num * 1 ;
-                i++;
-                txtResult.Text = String.Concat(txtResult.Text, "/r/n", x.ToString());
+                x *= i;
+                i--;
+                txtResult.Text = String.Concat(txtResult.Text, "\r\n", x.ToString());
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtNum.Clear();
+            txtResult.Clear();
+            txtNum.Focus();
+        }
+
+        private void btnFor_Click(object sender, EventArgs e)
+        {
+            double i,x; 
+            x = 1;
+            for (i = Convert.ToDouble(txtNum.Text); i > 1; i--)
+            {
+                x *= i;
+                txtResult.Text = String.Concat(txtResult.Text, "\r\n", x.ToString());
             }
         }
     }

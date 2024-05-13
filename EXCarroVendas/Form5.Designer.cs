@@ -45,19 +45,21 @@
             this.txtResult.Location = new System.Drawing.Point(413, 115);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
+            this.txtResult.ReadOnly = true;
             this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtResult.Size = new System.Drawing.Size(223, 70);
-            this.txtResult.TabIndex = 0;
+            this.txtResult.Size = new System.Drawing.Size(223, 117);
+            this.txtResult.TabIndex = 3;
             // 
             // btnVoltar
             // 
+            this.btnVoltar.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnVoltar.Location = new System.Drawing.Point(279, 389);
+            this.btnVoltar.Location = new System.Drawing.Point(264, 389);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(84, 26);
+            this.btnVoltar.Size = new System.Drawing.Size(85, 36);
             this.btnVoltar.TabIndex = 1;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -76,49 +78,55 @@
             this.txtNum.Location = new System.Drawing.Point(413, 55);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(223, 26);
-            this.txtNum.TabIndex = 3;
+            this.txtNum.TabIndex = 0;
             // 
             // btnLimpar
             // 
+            this.btnLimpar.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnLimpar.Location = new System.Drawing.Point(413, 389);
+            this.btnLimpar.Location = new System.Drawing.Point(451, 389);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(91, 26);
+            this.btnLimpar.Size = new System.Drawing.Size(95, 36);
             this.btnLimpar.TabIndex = 4;
             this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnWhile
             // 
+            this.btnWhile.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnWhile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnWhile.Location = new System.Drawing.Point(163, 312);
             this.btnWhile.Name = "btnWhile";
-            this.btnWhile.Size = new System.Drawing.Size(82, 29);
+            this.btnWhile.Size = new System.Drawing.Size(86, 43);
             this.btnWhile.TabIndex = 5;
             this.btnWhile.Text = "While";
-            this.btnWhile.UseVisualStyleBackColor = true;
+            this.btnWhile.UseVisualStyleBackColor = false;
             this.btnWhile.Click += new System.EventHandler(this.btnWhile_Click);
             // 
             // btnDo
             // 
+            this.btnDo.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnDo.Location = new System.Drawing.Point(342, 313);
             this.btnDo.Name = "btnDo";
-            this.btnDo.Size = new System.Drawing.Size(103, 28);
+            this.btnDo.Size = new System.Drawing.Size(107, 42);
             this.btnDo.TabIndex = 6;
             this.btnDo.Text = "DO While";
-            this.btnDo.UseVisualStyleBackColor = true;
+            this.btnDo.UseVisualStyleBackColor = false;
             this.btnDo.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnFor
             // 
+            this.btnFor.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnFor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnFor.Location = new System.Drawing.Point(532, 312);
             this.btnFor.Name = "btnFor";
-            this.btnFor.Size = new System.Drawing.Size(92, 29);
+            this.btnFor.Size = new System.Drawing.Size(92, 43);
             this.btnFor.TabIndex = 7;
             this.btnFor.Text = "FOR";
-            this.btnFor.UseVisualStyleBackColor = true;
+            this.btnFor.UseVisualStyleBackColor = false;
+            this.btnFor.Click += new System.EventHandler(this.btnFor_Click);
             // 
             // label2
             // 
@@ -135,6 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnFor);

@@ -64,5 +64,10 @@ namespace EXCarroVendas
             Form5 tela = new Form5();
             tela.Show();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
